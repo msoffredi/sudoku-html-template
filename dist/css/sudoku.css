@@ -25,3 +25,12 @@
     .sudoku .square-group .square:hover {
       background-color: #e0e0e0;
       cursor: pointer; }
+    .sudoku .square-group .square.annotations {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); }
+      .sudoku .square-group .square.annotations .annotation {
+        width: 0.5rem;
+        height: 0.5rem;
+        font-size: 0.3rem;
+        line-height: 1.7;
+        color: #666; }
